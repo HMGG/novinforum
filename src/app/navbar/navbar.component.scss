@@ -1,0 +1,21 @@
+#menubar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    left: 0;
+    justify-content: flex-end;
+    height: 2em;
+}
+
+.menuitem {
+    padding: 0.5em;
+    background-color: darkblue;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

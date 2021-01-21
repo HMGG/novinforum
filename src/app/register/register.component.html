@@ -1,0 +1,21 @@
+<div id="container">
+    <h3>Register</h3>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label for="email">E-mail</label>
+            <input id="email" type="email" formControlName="email">
+        </div>
+
+        <div>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" formControlName="password">
+        </div>
+
+        <div>
+            <label for="pass2">Same Password</label>
+            <input id="pass2" type="password" formControlName="password2">
+        </div>
+
+        <button class="button" type="submit">Register</button>
+    </form>
+</div>
